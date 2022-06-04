@@ -17,7 +17,7 @@ print(e)
 
 # Для чисел 3.0, 8.5, 5.66 узнайте, какое из них целое
 
-def is_integer_num(n):
+"""def is_integer_num(n):
     if isinstance(n, int):
         return True
     if isinstance(n, float):
@@ -26,6 +26,14 @@ def is_integer_num(n):
 print(is_integer_num(3.0)) # true
 print(is_integer_num(8.5)) # false
 print(is_integer_num(5.66)) # false
+"""
+k = 3.0
+j = 8.5
+t = 5.66
+
+print(k.is_integer()) # true
+print(j.is_integer()) # false
+print(t.is_integer()) # false
 
 # переведите букву l в число ASCII
 
