@@ -1,13 +1,10 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6fa90e96799b2168f356a7a6468f12ee5a8a3e97af647ab8968f18d30fdfeb05"
+            "sha256": "133e3699a98370467f42e26b4832c18c9764636a4a5e47ddc1af66b85c090ce3"
         },
         "pipfile-spec": 6,
-        "requires": {
-            "parametrize": "==0.1.1",
-            "python_version": "*"
-        },
+        "requires": {},
         "sources": [
             {
                 "name": "pypi",
@@ -16,6 +13,15 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "parametrize": {
+            "hashes": [
+                "sha256:618fc00d15a03df7177691e83e59aeb976b20c410ce39af5063d1839a4673645",
+                "sha256:d7ac0f61b781d1eadfa81d9e57ea80d5e184078e1976b7bb052ab682d9ef35de"
+            ],
+            "index": "pypi",
+            "version": "==0.1.1"
+        }
+    },
     "develop": {}
 }
