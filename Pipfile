@@ -5,3 +5,4 @@ verify_ssl = true
 
 [packages]
 parametrize = "==0.1.1"
+pytest = "==7.1.2"
