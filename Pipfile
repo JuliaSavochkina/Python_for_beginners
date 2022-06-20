@@ -4,4 +4,4 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-parametrize = "*"
+parametrize = "==0.1.1"
