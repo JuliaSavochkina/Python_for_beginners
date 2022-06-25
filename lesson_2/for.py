@@ -1,5 +1,6 @@
 """
 Пользователь вводит число N. Выведите все числа от 0 до N включительно.
+
 """
 n = int(input("Введите число N: "))
 for x in range(n + 1):
@@ -39,5 +40,3 @@ for s in str:
         s = '_' + s.lower()
     clean_str += s
 print(clean_str)
-
-
