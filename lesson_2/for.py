@@ -9,10 +9,10 @@ for x in range(n + 1):
 """
 Пользователь вводит числа K и N. Выведите сумму чисел от K до N включительно.
 """
-k = int(input("Введите число K: "))
-n = int(input("Введите число N: "))
+a = int(input("Введите число a: "))
+b = int(input("Введите число b: "))
 s = 0
-for x in range(k, n + 1):
+for x in range(a, b + 1):
     s = x + s
 print(s)
 

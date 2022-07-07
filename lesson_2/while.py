@@ -10,10 +10,10 @@ while (a != 0):
 1 до N включительно. Например, факториал числа 5 равен 120.
 """
 
-n = int(input("Введите целое положительное число: "))
-f = 1
-while (n > 1):
-    f = f * n
-    n = n - 1
-print(f)
+number = int(input("Введите целое положительное число: "))
+factorial = 1
+while (number > 1):
+    factorial = factorial * number
+    number = number - 1
+print(factorial)
 
