@@ -8,7 +8,7 @@ from lesson_3.lists import to_sqr, max_in_half, both_has, to_list
 
 class TestLesson3(TestCase):
     @parametrize(('symbol', 'res'),
-                 [('2', False), ('a', True), ('D', True), ('*', False)])
+                 [('2', True), ('a', False), ('D', False), ('*', False)])
     def test_isdigit(self, symbol, res):
         self.assertEqual(isdigit(symbol), res)
 
